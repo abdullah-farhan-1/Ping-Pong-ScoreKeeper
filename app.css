@@ -1,0 +1,215 @@
+body {
+    font-family: ' Courier New', Courier, monospace;
+}
+
+#main_card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30%;
+}
+
+#image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#paragraph1 {
+    padding: 5px;
+    font-size: 13px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+#information {
+    padding: 10px;
+    font-size: 13px;
+}
+
+#scorecard {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#score1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#score2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+#score_setup {
+    padding: 10px;
+    font-size: 15px;
+}
+
+#rounds {
+    border: 2px solid black;
+    background-color: ghostwhite;
+    border-radius: 10px;
+}
+
+#button_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+
+#player1 {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(14, 62, 21);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#player1:hover {
+    background-color: rgb(22, 88, 32);
+    border-color: rgb(14, 57, 20);
+    cursor: pointer;
+}
+
+#player1:active {
+    background-color: rgb(33, 129, 47);
+}
+
+#player2 {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(14, 48, 62);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#player2:hover {
+    background-color: rgb(21, 70, 91);
+    border-color: rgb(12, 40, 53);
+    cursor: pointer;
+}
+
+#player2:active {
+    background-color: rgb(32, 102, 135);
+}
+
+#reset {
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(62, 14, 14);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    background-color: rgb(88, 20, 20);
+    border-color: rgb(141, 34, 34);
+    cursor: pointer;
+}
+
+#reset:active {
+    background-color: rgb(119, 28, 28);
+}
+
+.colorWin {
+    color: green;
+}
+
+.colorLoss {
+    color: red;
+}
+
+#warning_container {
+    text-align: center;
+    color: red;
+}
+
+
+@media (min-width: 1225px) {
+    #main_card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 35%;
+    }
+}
+
+@media (max-width: 900px) {
+    #main_card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 25%;
+    }
+}
+
+@media (max-width: 725px) {
+    #main_card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    #main_card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    #main_card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 5%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #player1 {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    #player2 {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    #reset {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    #player1 {
+        font-size: 11px;
+        padding: 7px 14px;
+    }
+
+    #player2 {
+        font-size: 11px;
+        padding: 7px 14px;
+    }
+
+    #reset {
+        font-size: 11px;
+        padding: 7px 14px;
+    }
+}

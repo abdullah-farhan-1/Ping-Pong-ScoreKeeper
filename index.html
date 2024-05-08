@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="main_card">
+        <div id="image_container">
+            <img id="image" src="Static/lisa-keffer-1OFVPO7SPxg-unsplash.jpg" alt="">
+        </div>
+
+        <div>
+            <p id="paragraph1">Ping Pong Score Keeper</p>
+        </div>
+
+        <div id="scorecard">
+            <span id="score1">0</span> to <span id="score2">0</span>
+        </div>
+
+        <div id="information">Use the buttons below to keep score</div>
+
+        <div id="score_setup">
+            <span id="text">Rounds: </span>
+            <label for="rounds"></label>
+            <select name="rounds" id="rounds">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+
+        <div id="button_container">
+            <button id="player1">+1 Player One</button>
+            <button id="player2">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div id="warning_container">
+            <span id="warning"></span>
+        </div>
+
+
+
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
